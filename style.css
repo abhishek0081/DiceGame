@@ -1,0 +1,75 @@
+body{
+    background-color: #393e46;
+}
+
+h1{
+    color: #4ecca3;
+    font-family: 'lobster' , cursive;
+    text-align: center;
+    font-size: 8rem;
+    font-weight: bold;
+    text-shadow: 5px 0 #232931;
+    margin: 30px;
+}
+
+p{
+    color: #4ecca3;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    margin-top :60%
+}
+footer{
+    color: #eeeeeeee;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-top: 10%;
+    /* margin-bottom: 10%; */
+}
+
+.dice{
+    display: inline-block;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+img{
+    width: 80%;
+    box-shadow: 5px 5px 5px 5px  #232931;
+    background-color: #232931;
+    border-radius: 10%;
+    /* margin-top: 60%; */
+}
+
+@media (max-width:720px) {
+    h1{
+        color: #4ecca3;
+        font-family: 'lobster' , cursive;
+        text-align: center;
+        font-size: 5rem;
+        font-weight: bold;
+        text-shadow: 5px 0 #232931;
+        margin: 30px;
+    }
+    
+    p{
+        color: #4ecca3;
+        font-family: 'Indie Flower', cursive;
+        font-size: 2rem;
+    }
+    img{
+        width: 50%;
+        box-shadow: 5px 5px 5px 5px  #232931;
+        background-color: #232931;
+        border-radius: 10%;
+    }
+    p{
+        color: #4ecca3;
+        font-family: 'Indie Flower', cursive;
+        font-size: 2rem;
+        /* margin-top :60% */
+    }
+    
+}
